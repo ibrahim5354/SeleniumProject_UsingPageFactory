@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="TestNGListener.Listeners"/>
+  </listeners>
+  <test name="Register(failed)">
+    <classes>
+      <class name="Next_TestCases.Next_ResgisterTest">
+        <methods>
+          <include name="initia"/>
+          <include name="Registation"/>
+          <include name="TearDown"/>
+        </methods>
+      </class> <!-- Next_TestCases.Next_ResgisterTest -->
+      <class name="Next_TestCases.Next_LogIn_LogOut">
+        <methods>
+          <include name="baseNavigation"/>
+          <include name="TearDown"/>
+        </methods>
+      </class> <!-- Next_TestCases.Next_LogIn_LogOut -->
+    </classes>
+  </test> <!-- Register(failed) -->
+</suite> <!-- Failed suite [Suite] -->
